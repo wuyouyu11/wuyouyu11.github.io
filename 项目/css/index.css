@@ -1,0 +1,548 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	width: 100%;
+    max-width: 30rem;
+    margin: 0 auto;
+}
+/*顶部导航栏开始*/
+.indexT{
+	width: 100%;
+	height: 2.5rem;
+	margin: 0 auto;
+	/*background: red;*/
+	background: #28a3a1;
+}
+.indexT .TopNav{
+	width: 100%;
+	height: 2.5rem;
+	margin: 0 auto;
+	/*background: green;*/
+}
+.indexT .TopNav .l{
+	width: 69%;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	float: left;
+	/*background: orange;*/
+	/*text-align: center;*/
+	border-right: 1px solid #6cc0bf;
+	position: relative;
+}
+.indexT .TopNav .l::before{
+	content: '';
+    position: absolute;
+    background: url(../images/1.png) no-repeat;
+    width: .96rem;
+    height: .96rem;
+    left: 5%;
+    top: 0.7rem;
+    background-size: cover;
+}
+.indexT .TopNav .l span{
+	font-size: 0.9rem;
+	position: absolute;
+	left: 12%;
+	/*top: 2%;*/
+	color: #fff;
+}
+.indexT .TopNav .r{
+	width: 30%;
+	height: 2.5rem;
+	float: left;
+	/*background: blue;*/
+}
+.indexT .TopNav .r span{
+	width: 49%;
+	height: 2.5rem;
+	float: left;
+	/*background: red;*/
+	position: relative;
+}
+.indexT .TopNav .r span:nth-child(1){
+	border-right: 1px solid #6cc0bf;
+}
+.indexT .TopNav .r span.wx::before{
+	content: '';
+    background: url(../images/2.png) no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 1.78rem;
+    height: 1.46rem;
+    background-size: cover;
+}
+.indexT .TopNav .r span.wb::before{
+	content: '';
+    background: url(../images/3.png) no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 1.78rem;
+    height: 1.46rem;
+    background-size: cover;
+}
+/*顶部导航栏结束*/
+/*图片 菜单栏开始*/
+.indexC{
+	width: 100%;
+	height: 4.125rem;
+	margin: 0 auto;
+	/*background: red;*/
+	position: relative;
+}
+.indexC .meau{
+	width: 100%;
+	height: 4.125rem;
+	margin: 0 auto;
+	/*background: green;*/
+}
+.indexC .meau .l{
+	width: 70%;
+	height: 4.125rem;
+	float: left;
+	/*background: blue;*/
+	/*position: relative;*/
+}
+.indexC .meau .l img{
+	width: 70%;
+	height: 2.635rem;
+	position: absolute;
+	bottom: 0;
+}
+.indexC .meau .r{
+	width: 30%;
+	height: 4.125rem;
+	line-height: 4.125rem;
+	float: left;
+	/*background: orange;*/
+	position: relative;
+}
+.indexC .meau .r .btn1{
+	position: absolute;
+	right: 0;
+	top: 15px;
+	width: 30px;
+	height: 30px;
+	/*background: gray;*/
+}
+.indexC .meau .r .btn1 img{
+	width: 100%;	
+}
+.indexC .meau .list{
+	width: 100%;
+	height: 15.5rem;
+	background: #28a3a1;
+	position: absolute;
+	top: 4.125rem;
+	text-align: center;
+	display: none;
+}
+.indexC .meau .list li{
+	width: 100%;
+	height: 1.875rem;
+	line-height: 1.875rem;
+	border-bottom: 1px solid #ccc;
+}
+.indexC .meau .list li a{
+	text-decoration: none;
+	font-size: .9rem;
+	color: #fff;
+}
+/*图片 菜单栏结束*/
+/*轮播图开始*/
+
+/*轮播图结束*/
+/*精品课程开始*/
+.indexJ{
+	width: 100%;
+	height: 40.875rem;
+	margin: 0 auto;
+	/*background: red;*/
+}
+.indexJ .jingpin{
+	width: 100%;
+	height: 40.875rem;
+	margin: 0 auto;
+	/*background: green;*/
+}
+.indexJ .jingpin .up{
+	width: 100%;
+	height: 37.9375rem;
+	/*background: blue;*/
+	
+	font-family: '微软雅黑';
+}
+.indexJ .jingpin .up h3{
+	padding-top: 0.6rem;
+	font-size: 1.5rem;
+	font-weight: 400;
+	text-align: center;
+}
+.indexJ .jingpin .up p{
+	padding-top: 0.22rem;
+    color: #9c9c9c;
+	font-size: 1rem;
+	font-weight: 400;
+	text-align: center;
+}
+.indexJ .jingpin .up div{
+	width: 100%;
+	height: 8rem;
+	background: #f6f6f6;
+	margin-top: 5px;
+}
+.indexJ .jingpin .up div h1{
+	display: block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1em;
+    font-size: 16px;
+    color: #1968ae;
+    font-weight: bold;
+}
+.indexJ .jingpin .up div h2{
+	font-size: 12px;
+    color: #8c8c8c;
+    padding-top: 12px
+}
+.indexJ .jingpin .down{
+	width: 100%;
+	height: 2.5rem;
+	margin: 0 auto;
+	/*background: pink;*/
+	text-align: center;
+}
+.indexJ .jingpin .down .btn{
+	width: 8rem;
+    height: 2.5rem;
+    color: #28a3a1;
+    outline: none;
+    border: 1px solid #28a3a1;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+/*精品课程结束*/
+/*权威师资开始*/
+.indexQ{
+	width: 100%;
+	height: 40.875rem;
+	margin: 0 auto;
+	background: rgb(246,246,246);
+}
+.indexQ .quanwei{
+	width: 100%;
+	height: 40.875rem;
+	margin: 0 auto;
+	/*background: green;*/
+}
+.indexQ .quanwei .up{
+	width: 100%;
+	height: 36.9375rem;
+	/*background: blue;*/
+	text-align: center;
+	font-family: '微软雅黑';
+}
+.indexQ .quanwei .up h3{
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+.indexQ .quanwei .up p{
+	padding-top: 0.22rem;
+    color: #9c9c9c;
+	font-size: 1rem;
+	font-weight: 400;
+}
+.indexQ .quanwei .up div{
+	width: 100%;
+	height: 10rem;
+	margin-top: 10px;
+	/*background: green;*/
+}
+.indexQ .quanwei .up div .img{
+	width: 50%;
+	height: 10rem;
+	float: left;
+	/*background: orange;*/
+}
+.indexQ .quanwei .up div .img img{
+	width: 143px;
+	height: 10rem;
+}
+.indexQ .quanwei .up div .txt{
+	width: 50%;
+	height: 10rem;
+	/*background: skyblue;*/
+	float: left;
+}
+.indexQ .quanwei .up div .txt h1{
+	font-size: 20px;
+	font-weight: bold;
+   	margin-left: 0;
+}
+.indexQ .quanwei .up div .txt p{
+	color: #606060;
+	font-size: 12px;
+}
+.indexQ .quanwei .down{
+	width: 100%;
+	height: 2.5rem;
+	margin: 0 auto;
+	/*background: purple;*/
+	text-align: center;
+}
+.indexQ .quanwei .down .btn{
+	width: 8rem;
+    height: 2.5rem;
+    color: #28a3a1;
+    outline: none;
+    border: 1px solid #28a3a1;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+/*权威师资结束*/
+/*热招课程开始*/
+.indexH{
+	width: 100%;
+	height: 50.625rem;
+	margin: 0 auto;
+	background: #28a3a1;
+}
+.indexH .hots{
+	width: 100%;
+	height: 50.625rem;
+	margin: 0 auto;
+	/*background: green;*/
+	position: relative;
+}
+.indexH .hots .up{
+	width: 100%;
+	height: 4.875rem;
+	/*background: pink;*/
+	text-align: center;
+	font-family: '微软雅黑';
+	color: #fff;
+}
+.indexH .hots .up h3{
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+.indexH .hots .up p{
+	padding-top: 0.22rem;
+	font-size: 1.3rem;
+	font-weight: 400;
+}
+.indexH .hots .down{
+	width: 100%;
+	height: 39.5rem;
+	/*background: blue;*/
+}
+.indexH .hots .down .items{
+  	width: 100%;
+  	height: 4.9375rem;
+    border-bottom: 1px dashed #6cc0bf;
+    cursor: pointer;
+}
+.indexH .hots .down .items .dates{
+	width: 30%;
+	height: 4.9375rem;
+	/*background: red;*/
+	float: left;
+	text-align: center;
+	display: inline-block;
+	color: #fff;
+}
+.indexH .hots .down .items .dates p:nth-child(1){
+	text-align: center;
+	font-size: 1rem;
+	margin-top: 10px;
+}
+.indexH .hots .down .items .dates p:nth-child(2){
+	font-size: .8rem;
+}
+.indexH .hots .down .items .titles{
+	width: 70%;
+	height: 4.9375rem;
+	float: left;
+	/*background: red;*/
+}
+.indexH .hots .down .items .titles .data_text{
+	/*width: 260px;*/
+	height: 30px;
+	line-height: 30px;
+    font-size: .1rem;
+    font-family: '微软雅黑';
+    font-weight: 700;
+    color: #fff;
+}
+.indexH .hots .btn2{
+	position: relative;
+    width: 10rem;
+    height: 3rem;
+    font-size: 1rem;
+    font-family: '微软雅黑';
+    background: #35a5a5;
+    outline: none;
+    border: 1px solid white;
+    margin: 0 auto;
+    color: #fff;
+    left: 30%;
+    top: 20px;
+}
+/*热招课程结束*/
+/*咨询活动开始*/
+.indexZ{
+	width: 100%;
+	height: 45.75rem;
+	margin: 0 auto;
+	/*background: red;*/
+}
+.indexZ .zixun{
+	width: 100%;
+	height: 45.75rem;
+	margin: 0 auto;
+	/*background: green;*/
+}
+.indexZ .zixun .up{
+	width: 100%;
+	height: 5.25rem;
+	/*background: pink;*/
+	text-align: center;
+	font-family: '微软雅黑';
+	color: #000;
+}
+.indexZ .zixun .up h3{
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+.indexZ .zixun .up p{
+	padding-top: 0.22rem;
+	font-size: 1.3rem;
+	font-weight: 400;
+	color: #9c9c9c;
+}
+.indexZ .zixun .down{
+	width: 100%;
+	height: 30.875rem;
+	/*background: orange;*/
+}
+.indexZ .zixun .down .list{
+	border-bottom: 1px solid #f6f6f6;
+}
+.indexZ .zixun .down div{
+	width: 100%;
+	height: 17rem;
+	/*background: green;*/
+}
+.indexZ .zixun .down div .img{
+	width: 60%;
+	height: 6rem;
+	float: left;
+}
+.indexZ .zixun .down div .img img{
+	width: 100%;
+	height: 6rem;
+}
+.indexZ .zixun .down div .tit{
+	width: 40%;
+	height: 6rem;
+	/*background: pink;*/
+	float: left;
+	text-align: center;
+}
+.indexZ .zixun .down div .tit h1{
+	font-size: 36px;
+	color: #6d6d6d;
+}
+.indexZ .zixun .down div .tit span{
+	font-size: 18px;
+	color: #6d6d6d;
+}
+.indexZ .zixun .down div .text{
+	width: 100%;
+	height: 9rem;
+	/*background: blue;*/
+	float: left;
+}
+.indexZ .zixun .down div .text h1{
+	font-size: 16px;
+    color: #1968ae;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.indexZ .zixun .down div .text h2{
+	font-size: 14px;
+	color: #1968ae;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.indexZ .zixun .down div .text p{
+	color: #6e6e6e;
+    line-height: 1.8em;
+    height: 3.6em;
+    text-indent: 0;
+    overflow: hidden;
+    font-size: 14px;
+}
+.indexZ .zixun .btn3{
+	width: 8rem;
+    height: 2.5rem;
+    color: #28a3a1;
+    outline: none;
+    border: 1px solid #28a3a1;
+    margin: 0 auto;
+    font-size: 1rem;
+    position: relative;
+    left: 35%;
+    top: 50px;
+}
+/*咨询活动结束*/
+/*底部开始*/
+.indexF{
+	width: 100%;
+	height: 6.3125rem;
+	margin: 0 auto;
+	background: #28a3a1;
+	position: relative;
+}
+.indexF .footer{
+	width: 100%;
+	height: 6.3125rem;
+	margin: 0 auto;
+	/*background: pink;*/
+}
+.indexF .footer .imgs{
+	width: 80%;
+	height: 3.0625rem;
+	margin: 0 auto;
+	/*background: red;*/
+}
+.indexF .footer .imgs img{
+	width: 100%;
+	height: auto;
+}
+.indexF .footer .copys{
+	width: 100%;
+	height: 2.3125rem;
+	margin: 0 auto;
+	/*background: blue;*/
+	text-align: center;
+    color: #56c4c2;
+    font-size: 0.8rem;
+}
+.indexF .footer .copys img{
+	position: absolute;
+	bottom: 0;
+	left: 41%;
+}
+/*底部结束*/
